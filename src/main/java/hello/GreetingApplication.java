@@ -14,6 +14,7 @@ public class GreetingApplication {
         
         String[] beanNames = contex.getBeanDefinitionNames();
         Arrays.sort(beanNames);
+        
         for (String def : beanNames){
         	System.out.println(def);
         }
