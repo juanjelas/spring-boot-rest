@@ -27,8 +27,8 @@ public class GreetingController {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 
-	@RequestMapping("/adios")
+	@RequestMapping("/saluda")
 	public String adios() {
-		return "adios: " + loadConfig.getDefaultName();
+		return "saluda: " + loadConfig.getDefaultName();
 	}
 }
