@@ -29,6 +29,6 @@ public class GreetingController {
 
 	@RequestMapping("/saluda")
 	public String adios() {
-		return "saluda: " + loadConfig.getDefaultName();
+		return "nuevo mensaje: " + loadConfig.getDefaultName();
 	}
 }
